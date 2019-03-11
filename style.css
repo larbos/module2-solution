@@ -1,6 +1,103 @@
-h1 {
-  font-color: 0000ff
-  }
-.box {
-  background-color: grey
+body {
+    margin: 1;
+    padding: 0; 
+    font-family: cursive;
 }
+
+*{
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 30px;
+     }
+section {
+  background-color: grey;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  margin: 40px;
+  width: 350px;
+  float: left;
+  clear: right;
+  position: relative;
+  overflow-y: 100px;
+  }
+div {
+    padding: 5px 10px 10px 10px;
+    border: 1px solid black;
+    background-position: left; 
+    text-align: center;
+    }
+#meal1 {
+    background-color: rosybrown;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    float: right;
+    font-weight: bold;
+      }
+#meal2 {
+    background-color: firebrick;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    color: white;
+    }
+#meal3 {
+    background-color: navajowhite;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    float: right;
+    font-weight: bold;
+   }
+#content {
+    background-color: grey;
+    margin: 20%;
+
+}
+@media (min-width: 992px) {/*desktop*/
+    #box1 {
+        width: 28%;
+    }
+    #box2 {
+        width: 28%;
+    } 
+    #box3 {
+        width: 28%;
+    }  
+    section {
+      height: 150px;
+      display: inline-block;
+    }  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {/*tablet*/
+    #box2 {
+        width: 40%;  
+    }
+    #box2 {
+        width: 40%;   
+    }
+    #box3 {
+        width: 85%;
+    }  
+}
+
+@media (max-width: 767px) { /*mobile*/
+    #box1 {
+        width: 500px;
+    }
+    #box2 {
+        width: 500px;
+    } 
+    #box3 {
+        width: 500px;
+    }    
+}
+p {
+  margin: 40px 10px 0px 10px;
+  }
