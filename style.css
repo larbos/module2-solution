@@ -1,6 +1,6 @@
 body {
-    margin: 1;
-    padding: 0; 
+    margin: auto;
+    padding: 10px; 
     font-family: cursive;
 }
 
@@ -19,7 +19,7 @@ section {
   margin: 30px;
   width: 350px;
   clear: right;
-  position: relative;
+  /*position: relative;*/
   }
 div {
     padding: 5px 10px 10px 10px;
@@ -32,14 +32,12 @@ div {
     background-color: rosybrown;
     width: 100px;
     height: 35px;
-    position: relative;
     font-weight: bold;
       }
 #meal2 {
     background-color: firebrick;
     width: 100px;
     height: 35px;
-    position: relative;
     font-weight: bold;
     color: white;
     }
@@ -47,7 +45,6 @@ div {
     background-color: navajowhite;
     width: 100px;
     height: 35px;
-    position: relative;
     font-weight: bold;
    }
 #content {
@@ -66,7 +63,7 @@ div {
         width: 28%;
     }  
     section {
-      height: 150px;
+          display: inline-block;
     }  
 }
 
@@ -81,7 +78,7 @@ div {
         width: 85%;
     }
     section{
-        float: left;
+      float: left;
     }
 }
 
@@ -98,4 +95,5 @@ div {
 }
 p {
   margin: 40px 10px 0px 10px;
+  padding: 10px;
   }
