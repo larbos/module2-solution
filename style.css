@@ -16,25 +16,23 @@ section {
   background-color: grey;
   margin-bottom: 100px;
   border: 1px solid black;
-  margin: 40px;
+  margin: 30px;
   width: 350px;
-  float: left;
   clear: right;
   position: relative;
-  overflow-y: 100px;
   }
 div {
     padding: 5px 10px 10px 10px;
     border: 1px solid black;
     background-position: left; 
     text-align: center;
+    float: right;
     }
 #meal1 {
     background-color: rosybrown;
     width: 100px;
     height: 35px;
     position: relative;
-    float: right;
     font-weight: bold;
       }
 #meal2 {
@@ -42,7 +40,6 @@ div {
     width: 100px;
     height: 35px;
     position: relative;
-    float: right;
     font-weight: bold;
     color: white;
     }
@@ -51,7 +48,6 @@ div {
     width: 100px;
     height: 35px;
     position: relative;
-    float: right;
     font-weight: bold;
    }
 #content {
@@ -83,7 +79,10 @@ div {
     }
     #box3 {
         width: 85%;
-    }  
+    }
+    section{
+        float: left;
+    }
 }
 
 @media (max-width: 767px) { /*mobile*/
